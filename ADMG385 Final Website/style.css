@@ -1,0 +1,56 @@
+html{
+	font-size: 100%;
+}
+a:link, a:hover, a:visited{
+	color: white;
+}
+nav {
+	display:block;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+	border-bottom: 2px solid white;
+	padding-bottom: 15px;
+}
+nav a {
+	text-align: center;
+	padding:7.6rem;
+	font-size: 24px;
+}
+body {
+	background-color: black;
+}
+h1, h2, h3, h4 {
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	color: white;
+}
+img {
+	max-width: 50%;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+p {
+	font-family: Arial;
+	color: white;
+}
+ol, ul, li {
+	font-family: Arial;
+	color: white;
+	line-height: 2;
+}
+.flex-container{
+	display:flex;
+}
+div.benefits {
+	border: 2px solid green;
+	width: 50%;
+}
+div.downsides {
+	border: 2px solid red;
+	width: 50%;
+}
+footer {
+	border: 2px solid white;
+}
